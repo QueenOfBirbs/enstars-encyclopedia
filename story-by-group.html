@@ -1,119 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <title>Story Catalog</title>
-    <link rel="icon" type="image/x-icon" href="./photos/" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+		<title>Story Catalog</title>
+		<link rel="icon" type="image/x-icon" href="./EN-logo.png" />
+	</head>
 
-  <body id="story-group">
-    <div>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <a
-              class="nav-link"
-              id="home-tab"
-              data-toggle="tab"
-              href="./story-home.html"
-              role="tab"
-              aria-controls="alphabetical"
-              aria-selected="false"
-              >Alphabetical</a
-            >
-          </li>
-          <li class="nav-item" role="presentation">
-            <a
-              class="nav-link active"
-              id="group-tab"
-              data-toggle="tab"
-              href="./story-by-group.html"
-              role="tab"
-              aria-controls="group"
-              aria-selected="false"
-              >By Group</a
-            >
-            <li class="nav-item" role="presentation">
-              <a
-                class="nav-link"
-                id="!era-tab"
-                data-toggle="tab"
-                href="./story-by-!era.html"
-                role="tab"
-                aria-controls="!era"
-                aria-selected="false"
-                >! Era</a
-              >
-            <li class="nav-item" role="presentation">
-                  <a
-                    class="nav-link"
-                    id="!!era-tab"
-                    data-toggle="tab"
-                    href="./story-by-!!era.html"
-                    role="tab"
-                    aria-controls="!!era"
-                    aria-selected="false"
-                    >!! Era</a
-                  >
-          </li>
-          <li class="nav-item" role="presentation">
-            <a
-              class="nav-link"
-              id="character-tab"
-              data-toggle="tab"
-              href="./story-by-character.html"
-              role="tab"
-              aria-controls="character"
-              aria-selected="true"
-              >By Character</a
-            >
-          </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div
-            class="tab-pane fade"
-            id="alphabetical"
-            role="tabpanel"
-            aria-labelledby="alphabetical-tab"
-          >
-          </div>
-          <div class="tab-content" id="myTabContent">
-              <div
-                class="tab-pane fade"
-                id="!era"
-                role="tabpanel"
-                aria-labelledby="!era-tab"
-              >
-              </div>
-              <div class="tab-content" id="myTabContent">
-                  <div
-                    class="tab-pane fade"
-                    id="!!era"
-                    role="tabpanel"
-                    aria-labelledby="!!era-tab"
-                  >
-                  </div>
-          <div
-            class="tab-pane fade"
-            id="profile"
-            role="tabpanel"
-            aria-labelledby="group-tab"
-          >
-          </div>
-          <div
-            class="tab-pane fade show active"
-            id="contact"
-            role="tabpanel"
-            aria-labelledby="character-tab"
-          >
-          </div>
-        </div>
-      </div>
-</body>
+	<body id="story-group">
+		<div class="row">
+			<container id="side-deco-box" class="col-4"> </container>
+
+			<container class="col-8">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link"
+							id="home-tab"
+							data-toggle="tab"
+							href="./story-home.html"
+							role="tab"
+							aria-controls="alphabetical"
+							aria-selected="false"
+							>Alphabetical</a
+						>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link active"
+							id="group-tab"
+							data-toggle="tab"
+							href="./story-by-group.html"
+							role="tab"
+							aria-controls="group"
+							aria-selected="false"
+							>By Group</a
+						>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link"
+							id="!era-tab"
+							data-toggle="tab"
+							href="./story-by-!era.html"
+							role="tab"
+							aria-controls="!era"
+							aria-selected="false"
+							>! Era</a
+						>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link"
+							id="!!era-tab"
+							data-toggle="tab"
+							href="./story-by-!!era.html"
+							role="tab"
+							aria-controls="!!era"
+							aria-selected="false"
+							>!! Era</a
+						>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link"
+							id="character-tab"
+							data-toggle="tab"
+							href="./story-by-character.html"
+							role="tab"
+							aria-controls="character"
+							aria-selected="true"
+							>By Character</a
+						>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div
+						class="tab-pane fade"
+						id="alphabetical"
+						role="tabpanel"
+						aria-labelledby="alphabetical-tab"
+					></div>
+					<div class="tab-content" id="myTabContent">
+						<div
+							class="tab-pane fade"
+							id="!era"
+							role="tabpanel"
+							aria-labelledby="!era-tab"
+						></div>
+						<div class="tab-content" id="myTabContent">
+							<div
+								class="tab-pane fade"
+								id="!!era"
+								role="tabpanel"
+								aria-labelledby="!!era-tab"
+							></div>
+							<div
+								class="tab-pane fade"
+								id="profile"
+								role="tabpanel"
+								aria-labelledby="group-tab"
+							></div>
+							<div
+								class="tab-pane fade show active"
+								id="contact"
+								role="tabpanel"
+								aria-labelledby="character-tab"
+							></div>
+						</div>
+					</div>
+				</div>
+			</container>
+		</div>
+	</body>
 </html>
