@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
     />
-    <title>Story By Character</title>
+    <title>Story Catalog</title>
     <link rel="icon" type="image/x-icon" href="./photos/faviconlime.png" />
   </head>
   
@@ -23,9 +23,9 @@
               data-toggle="tab"
               href="./story-home.html"
               role="tab"
-              aria-controls="home"
-              aria-selected="true"
-              >Home</a
+              aria-controls="alphabetical"
+              aria-selected="false"
+              >Alphabetical</a
             >
           </li>
           <li class="nav-item" role="presentation">
@@ -35,10 +35,32 @@
               data-toggle="tab"
               href="./story-by-group.html"
               role="tab"
-              aria-controls="profile"
+              aria-controls="group"
               aria-selected="false"
-              >Group</a
+              >By Group</a
             >
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="!era-tab"
+                data-toggle="tab"
+                href="./story-by-!era.html"
+                role="tab"
+                aria-controls="!era"
+                aria-selected="false"
+                >! Era</a
+              >
+            <li class="nav-item" role="presentation">
+                  <a
+                    class="nav-link"
+                    id="!!era-tab"
+                    data-toggle="tab"
+                    href="./story-by-!!era.html"
+                    role="tab"
+                    aria-controls="!!era"
+                    aria-selected="false"
+                    >!! Era</a
+                  >
           </li>
           <li class="nav-item" role="presentation">
             <a
@@ -47,20 +69,36 @@
               data-toggle="tab"
               href="./story-by-character.html"
               role="tab"
-              aria-controls="contact"
-              aria-selected="false"
-              >Character</a
+              aria-controls="character"
+              aria-selected="true"
+              >By Character</a
             >
           </li>
         </ul>
         <div class="tab-content" id="myTabContent">
           <div
             class="tab-pane fade"
-            id="home"
+            id="alphabetical"
             role="tabpanel"
-            aria-labelledby="home-tab"
+            aria-labelledby="alphabetical-tab"
           >
           </div>
+          <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade"
+                id="!era"
+                role="tabpanel"
+                aria-labelledby="!era-tab"
+              >
+              </div>
+              <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade"
+                    id="!!era"
+                    role="tabpanel"
+                    aria-labelledby="!!era-tab"
+                  >
+                  </div>
           <div
             class="tab-pane fade"
             id="profile"
