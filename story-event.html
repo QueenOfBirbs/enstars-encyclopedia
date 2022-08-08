@@ -21,14 +21,38 @@
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item" role="presentation">
 						<a
-							class="nav-link active"
+							class="nav-link"
 							id="home-tab"
 							data-toggle="tab"
-							href="./story-home.html"
+							href="./story-alphabetical.html"
 							role="tab"
 							aria-controls="alphabetical"
 							aria-selected="false"
 							>Alphabetical</a
+						>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link active"
+							id="home-tab"
+							data-toggle="tab"
+							href="./story-event.html"
+							role="tab"
+							aria-controls="event"
+							aria-selected="false"
+							>Event</a
+						>
+					</li>
+					<li class="nav-item" role="presentation">
+						<a
+							class="nav-link"
+							id="home-tab"
+							data-toggle="tab"
+							href="./story-scout.html"
+							role="tab"
+							aria-controls="scout"
+							aria-selected="false"
+							>Scout</a
 						>
 					</li>
 					<li class="nav-item" role="presentation">
@@ -91,34 +115,49 @@
 					></div>
 					<div class="tab-content" id="myTabContent">
 						<div
-							class="tab-pane fade"
-							id="!era"
+							class="tab-pane fade show active"
+							id="event"
 							role="tabpanel"
-							aria-labelledby="!era-tab"
+							aria-labelledby="event-tab"
 						></div>
 						<div class="tab-content" id="myTabContent">
 							<div
 								class="tab-pane fade"
-								id="!!era"
+								id="scout"
 								role="tabpanel"
-								aria-labelledby="!!era-tab"
+								aria-labelledby="scout-tab"
 							></div>
-							<div
-								class="tab-pane fade"
-								id="profile"
-								role="tabpanel"
-								aria-labelledby="group-tab"
-							></div>
-							<div
-								class="tab-pane fade show active"
-								id="contact"
-								role="tabpanel"
-								aria-labelledby="character-tab"
-							></div>
+							<div class="tab-content" id="myTabContent">
+								<div
+									class="tab-pane fade"
+									id="!era"
+									role="tabpanel"
+									aria-labelledby="!era-tab"
+								></div>
+								<div class="tab-content" id="myTabContent">
+									<div
+										class="tab-pane fade"
+										id="!!era"
+										role="tabpanel"
+										aria-labelledby="!!era-tab"
+									></div>
+									<div
+										class="tab-pane fade"
+										id="group"
+										role="tabpanel"
+										aria-labelledby="group-tab"
+									></div>
+									<div
+										class="tab-pane fade"
+										id="character"
+										role="tabpanel"
+										aria-labelledby="character-tab"
+									></div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			</container>
+					</div></div
+			></container>
 		</div>
 	</body>
 </html>
