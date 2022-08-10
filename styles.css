@@ -1,3 +1,17 @@
-#side-deco-box{
-    background-color: rgb(0, 153, 255);
+#side-deco-box {
+	background-color: rgb(0, 153, 255);
+}
+
+#card {
+	height: 450px;
+	margin: 7.5px;
+	padding: 0%;
+	border: 5px;
+	border-style: solid;
+	border-color: aliceblue;
+    max-width: 350px;
+}
+
+#row {
+	flex-wrap: nowrap;
 }
